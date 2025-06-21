@@ -8,8 +8,8 @@ int addNumbers(int a, int b);       // int: RETURNS an int value to the caller
 int main() {
     printCrap(3); // Calls the void function, just prints a message
 
-    int result = addNumbers(4, 5); // Calls the int function, stores the returned value
-    cout << "The sum is " << result << endl;
+    int answer = addNumbers(4, 5); // Calls the int function, stores the returned value
+    cout << "The sum is " << answer << endl;
 
     return 0;
 }
